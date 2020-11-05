@@ -1,6 +1,6 @@
 body {
   background: rgb(255, 248, 216);
-;
+  ;
 }
 
 .fullbleed {
@@ -15,16 +15,12 @@ body {
   width: 100%;
 }
 
-
-
 section {
-/* background: rgb(89, 58, 40); */
+  /* background: rgb(89, 58, 40); */
   min-height: 10vh;
-/*  max-width: 840px;*/
+  /*  max-width: 840px;*/
   margin: 0 auto;
-
 }
-
 
 header {
   min-height: 15vh;
@@ -33,16 +29,15 @@ header {
   justify-content: center;
 }
 
-
 .main-menu {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   list-style-type: none;
 }
 
 .main-menu li {
-flex-basis: 50em;
-/*border-left: 1px solid #000;
+  flex-basis: 50em;
+  /*border-left: 1px solid #000;
 border-top: 1px solid #000;
 border-right: 1px solid #000;
 border-bottom: 1px solid #000;*/
@@ -52,23 +47,19 @@ border-bottom: 1px solid #000;*/
   padding: 4em;
 }
 
-
 h1 {
   font-size: 5em;
   text-align: center;
-  color: rgb(150, 165, 117
-);
+  color: rgb(150, 165, 117);
   padding-bottom: 40px;
 }
 
 h2 {
-  color: rgb(255, 199, 201
-);
+  color: rgb(255, 199, 201);
   font-size: 2em;
   padding-bottom: 40px;
   padding-top: 60px;
 }
-
 
 video {
   justify-content: center;
@@ -89,13 +80,10 @@ video {
   margin-bottom: 40px;
 }
 
-
-
 #Etape1 h2 {
   padding: 50px;
-margin-left: 450px;
-color: white;
-
+  margin-left: 450px;
+  color: white;
 }
 
 #Etape1 .text1 {
@@ -104,7 +92,6 @@ color: white;
   margin: 200px;
   margin-bottom: 50px;
   margin-top: 50px;
-
 }
 
 #Etape1 .video {
@@ -114,21 +101,18 @@ color: white;
   padding-bottom: 50px;
 }
 
-
 #Etape2 {
   /*border: solid white;*/
   background-image: url(image/flowerbee.jpg);
   background-attachment: fixed;
   background-size: cover;
   justify-content: center;
-
 }
 
 #Etape2 h2 {
   padding: 50px;
   margin-left: 450px;
   color: white;
-
 }
 
 #Etape2 .text2 {
@@ -136,31 +120,25 @@ color: white;
   padding: 50px;
   margin: 200px;
   margin-top: 50px;
-
 }
 
 #Etape3 {
-background-image: url(image/honeycomb.jpeg);
-background-size: cover;}
-
+  background-image: url(image/honeycomb.jpeg);
+  background-size: cover;
+}
 
 #Etape3 h2 {
-  padding: 50px;
-  margin-left: 450px;
 
 }
 
 #Etape3 .text3 {
-  background: white;
-  padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
 }
-
-
 
 #Etape4 {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   padding-top: 50px;
 }
 
@@ -169,23 +147,9 @@ background-size: cover;}
   padding-left: 50px;
 }
 
+#Etape5 {}
 
-
-
-
-
-
-#Etape5 {
-
-
-}
-
-
-
-
-
-
-footer  {
+footer {
   border-top: 1px solid rgb(150, 165, 117);
   background: rgb(150, 165, 117);
   display: flex;
